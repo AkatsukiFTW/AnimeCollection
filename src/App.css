@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Darumadrop One", serif;
+}
+
+.container {
+  background-color: rgb(235, 235, 235);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgBx{
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  color: rgb(87, 82, 82);
+  transition: color 0.3s ease-in-out, transform 0.6s ease-in-out;
+}
+.imgBx h1{
+  font-size: 42px;
+}
+
+.imgBx:hover{
+  color: rgb(0, 0, 0);
+  transform: scale(1.1);
+}
+
+img {
+  width: 220px;
+  position: absolute;
+  margin: 30px;
+  border-radius: 5px;
+}
+
+
+.img1, .img2, .img3, .img4
+ {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.imgBx:hover .img1, .imgBx:hover .img2, .imgBx:hover .img3, .imgBx:hover .img4 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.img1 {
+  top: 30%;
+  left: 15%;
+}
+
+.img2 {
+  top: 33%;
+  right: 15%;
+}
+
+.img3{
+  bottom: 30%;
+  left: 18%;
+}
+
+.img4{
+  bottom: 33%;
+  right: 18%;
+}
+@media(max-width:1024px){
+  .img1 {
+    top: 30%;
+    left: 2%;
+  }
+  
+  .img2{
+    top: 33%;
+    right: 5%;
+  }
+  
+  .img3 {
+    bottom: 30%;
+    left: 5%;
+  }
+  
+  .img4{
+    bottom: 33%;
+    right: 2%;
+  }
+  .box{
+    width: 100%;
+    height: 100%;
+  }
+  .imgBx{
+    width: 100%;
+  }
+}
