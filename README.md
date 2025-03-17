@@ -17,9 +17,10 @@ An interactive gallery featuring iconic scenes from my favorite anime series, bu
 <br>
 
 
+![anime Col](https://github.com/user-attachments/assets/b4a1aaad-b68a-4909-841b-30ed565463dd)
 
 
-https://github.com/user-attachments/assets/8ac57e09-9b4d-41b8-8592-6f1157aa864c
+
 
 
 
